@@ -15,7 +15,7 @@ namespace RestaurantRater.Models
     }
 
 
-    public class RestaurantDBContext : DbContext
+    public class RestaurantDbContext : DbContext
     {
         public DbSet<Restaurant> Restaurants { get; set; }
     }
